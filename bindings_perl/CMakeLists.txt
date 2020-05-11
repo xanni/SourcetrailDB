@@ -42,4 +42,4 @@ swig_add_library(
 set_target_properties(${PERL_BINDING_TARGET_NAME}
                       PROPERTIES OUTPUT_NAME sourcetraildb)
 
-swig_link_libraries(${PERL_BINDING_TARGET_NAME} ${PERL_LIBRARIES} ${LIB_CORE_TARGET_NAME})
+swig_link_libraries(${PERL_BINDING_TARGET_NAME} ${LIB_CORE_TARGET_NAME})
